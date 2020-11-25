@@ -1,0 +1,59 @@
+Adding a new Yearly reccurrence schedule event in Calendar
+Setting base URI..
+Get connection for route {s}->https://api-staging.docasap.com:443
+Connecting to api-staging.docasap.com:443
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /schedule-management/rules/add HTTP/1.1
+ >> "POST /schedule-management/rules/add HTTP/1.1[\r][\n]"
+ >> "Accept: */*[\r][\n]"
+ >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+ >> "Content-Length: 645[\r][\n]"
+ >> "Host: api-staging.docasap.com[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_45)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /schedule-management/rules/add HTTP/1.1
+>> Accept: */*
+>> Content-Type: application/json; charset=UTF-8
+>> Content-Length: 645
+>> Host: api-staging.docasap.com
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_45)
+>> Accept-Encoding: gzip,deflate
+ >> "{"schedule":{"recurrence":"YEARLY","apptTypes":{"internalReasonIds":[1],"externalReasonIds":["abc"],"type":"SOME_INT_VR"},"bookingTypes":"ALL","repeatBy":{"periods":["2"],"dateRangeEndDate":"","weekNumber":"null","type":"MONTHS","timeRange":[{"date":"null","period":"30","from":"null","to":"null","type":"FULLDAY"}]},"apptLimitationValue":2,"ends":{"date":"NULL","occurrence":"null","type":"NEVER"},"repeatEvery":"1","startDate":"11/30/2020","resources":{"ids":[],"type":"ALL_RESOURCES"}},"rule":{"ruleCode":"TestAutomation_YEARLY_524","ruleId":"null","ruleGid":"null","subRuleName":"TestAutomation_YEARLY_524","subRuleGid":"null"},"userId":"1"}"
+ << "HTTP/1.1 400 Bad Request[\r][\n]"
+ << "Date: Wed, 25 Nov 2020 10:27:46 GMT[\r][\n]"
+ << "Content-Type: application/json[\r][\n]"
+ << "Transfer-Encoding: chunked[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "Set-Cookie: __cfduid=d6f292dbeb1a9a691e8e984f3ee7820371606300065; expires=Fri, 25-Dec-20 10:27:45 GMT; path=/; domain=.docasap.com; HttpOnly; SameSite=Lax[\r][\n]"
+ << "x-envoy-upstream-service-time: 99[\r][\n]"
+ << "CF-Cache-Status: DYNAMIC[\r][\n]"
+ << "cf-request-id: 06a08af68f000001f20c1e4000000001[\r][\n]"
+ << "Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"[\r][\n]"
+ << "Strict-Transport-Security: max-age=2592000[\r][\n]"
+ << "Server: cloudflare[\r][\n]"
+ << "CF-RAY: 5f7aadd0eb6401f2-SIN[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 400 Bad Request
+<< HTTP/1.1 400 Bad Request
+<< Date: Wed, 25 Nov 2020 10:27:46 GMT
+<< Content-Type: application/json
+<< Transfer-Encoding: chunked
+<< Connection: keep-alive
+<< Set-Cookie: __cfduid=d6f292dbeb1a9a691e8e984f3ee7820371606300065; expires=Fri, 25-Dec-20 10:27:45 GMT; path=/; domain=.docasap.com; HttpOnly; SameSite=Lax
+<< x-envoy-upstream-service-time: 99
+<< CF-Cache-Status: DYNAMIC
+<< cf-request-id: 06a08af68f000001f20c1e4000000001
+<< Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+<< Strict-Transport-Security: max-age=2592000
+<< Server: cloudflare
+<< CF-RAY: 5f7aadd0eb6401f2-SIN
+Connection can be kept alive indefinitely
+Parsing response as: application/json
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream

@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: runners.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 10.166 sec <<< FAILURE! - in runners.TestRunner
+User should able to add Custom Schedule with Daily Recurrences(Add Calendar Schedule with all custom recurrences type like Daily , Weekly , Monthly , Yearly)  Time elapsed: 3.443 sec  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <400>.
+
+
+User should able to add Custom Schedule with Weekly Recurrences(Add Calendar Schedule with all custom recurrences type like Daily , Weekly , Monthly , Yearly)  Time elapsed: 1.324 sec  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <400>.
+
+
+User should able to add Custom Schedule with Monthly Recurrences(Add Calendar Schedule with all custom recurrences type like Daily , Weekly , Monthly , Yearly)  Time elapsed: 3.656 sec  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <400>.
+
+
+User should able to add Custom Schedule with Yearly Recurrences(Add Calendar Schedule with all custom recurrences type like Daily , Weekly , Monthly , Yearly)  Time elapsed: 1.257 sec  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <400>.
+
+
