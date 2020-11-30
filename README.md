@@ -1,6 +1,6 @@
 
 
-# java-cucumber-Project to test RestAPI :https://api-staging.docasap.com/schedule-management/rules/add
+# java-cucumber-Project to test RestAPI
 
 Project to Automate the Add Calendar Schedule scenarios with all custom recurrences type like Daily , Weekly , Monthly , Yearly 
 
